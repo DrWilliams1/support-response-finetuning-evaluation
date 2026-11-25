@@ -1,0 +1,27 @@
+{
+  "sft_categories": {
+    "missing_receipt": 80,
+    "used_item": 80,
+    "eligible": 80,
+    "damaged_item": 80,
+    "outside_window": 80,
+    "eligible_boundary": 80
+  },
+  "dpo_categories": {
+    "outside_window": 33,
+    "used_item": 41,
+    "damaged_item": 46,
+    "eligible": 34,
+    "missing_receipt": 47,
+    "eligible_boundary": 39
+  },
+  "dpo_rejection_types": {
+    "wrong_reason": 44,
+    "wrong_ticket": 42,
+    "wrong_decision": 35,
+    "extra_key": 36,
+    "markdown_wrapper": 44,
+    "unsupported_reply": 39
+  },
+  "subset_selection": "Fixed seeded random subset of training rows; no held-out information used"
+}
