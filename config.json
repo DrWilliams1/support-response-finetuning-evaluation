@@ -1,0 +1,21 @@
+{
+  "experiment": "support_response_sft_dpo",
+  "model_id": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+  "model_revision": "fe8a4ea1ffedaf415f4da2f062534de366a451e6",
+  "seed": 2026,
+  "max_length": 512,
+  "max_new_tokens": 128,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.0,
+  "sft_steps": 120,
+  "dpo_steps": 60,
+  "dpo_examples": 240,
+  "gradient_accumulation": 4,
+  "learning_rate_sft": 0.0002,
+  "learning_rate_dpo": 5e-05,
+  "beta": 0.1,
+  "save_every": 30,
+  "eval_limit": null,
+  "bootstrap_resamples": 2000
+}
