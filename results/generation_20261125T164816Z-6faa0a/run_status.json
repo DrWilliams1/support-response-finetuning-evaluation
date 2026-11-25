@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "active_stage": "evaluation",
+  "completed_stages": [
+    "sft",
+    "dpo"
+  ],
+  "benchmark_completed": true,
+  "evaluation_complete": true,
+  "human_review_completed": false
+}
