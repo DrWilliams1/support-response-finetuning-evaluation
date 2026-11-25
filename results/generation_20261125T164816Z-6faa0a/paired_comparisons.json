@@ -1,0 +1,41 @@
+{
+  "sft_minus_base": {
+    "mean_delta": 0.725,
+    "ci95": [
+      0.6416666666666667,
+      0.8
+    ],
+    "b_better": 87,
+    "a_better": 0,
+    "ties": 33,
+    "resamples": 2000,
+    "seed": 2026,
+    "interpretation": "Descriptive paired case bootstrap; no multiplicity or domain-shift adjustment"
+  },
+  "dpo_minus_sft": {
+    "mean_delta": -0.4166666666666667,
+    "ci95": [
+      -0.5333333333333333,
+      -0.3
+    ],
+    "b_better": 11,
+    "a_better": 61,
+    "ties": 48,
+    "resamples": 2000,
+    "seed": 2026,
+    "interpretation": "Descriptive paired case bootstrap; no multiplicity or domain-shift adjustment"
+  },
+  "dpo_minus_base": {
+    "mean_delta": 0.30833333333333335,
+    "ci95": [
+      0.225,
+      0.4
+    ],
+    "b_better": 37,
+    "a_better": 0,
+    "ties": 83,
+    "resamples": 2000,
+    "seed": 2026,
+    "interpretation": "Descriptive paired case bootstrap; no multiplicity or domain-shift adjustment"
+  }
+}
