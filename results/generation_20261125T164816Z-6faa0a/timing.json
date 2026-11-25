@@ -1,0 +1,25 @@
+{
+  "training_model_loading_seconds": 21.753430901,
+  "sft": {
+    "seconds": 198.03074316300012,
+    "optimizer_steps": 120,
+    "training_example_presentations": 480,
+    "peak_allocated_gpu_bytes": 1331590656,
+    "peak_reserved_gpu_bytes": 1681915904
+  },
+  "dpo_model_loading_seconds": 5.665995918000135,
+  "dpo": {
+    "seconds": 192.6463438369999,
+    "optimizer_steps": 60,
+    "training_example_presentations": 240,
+    "peak_allocated_gpu_bytes": 1448789504,
+    "peak_reserved_gpu_bytes": 1686110208
+  },
+  "base_evaluation_loading_seconds": 2.1952493620001405,
+  "base_evaluation_peak_allocated_gpu_bytes": 837620224,
+  "sft_evaluation_loading_seconds": 2.2911463000000367,
+  "sft_evaluation_peak_allocated_gpu_bytes": 855752704,
+  "dpo_evaluation_loading_seconds": 2.413421558999744,
+  "dpo_evaluation_peak_allocated_gpu_bytes": 855752704,
+  "scope": "Single-run wall times; generation includes GPU synchronization; recovery loading times accumulated; no production cost measured"
+}
