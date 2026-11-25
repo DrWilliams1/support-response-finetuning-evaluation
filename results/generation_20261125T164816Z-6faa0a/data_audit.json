@@ -1,0 +1,11 @@
+{
+  "rows": {
+    "train": 480,
+    "development": 60,
+    "test": 120
+  },
+  "unique_fact_groups": 660,
+  "shared_fact_groups": 0,
+  "synthetic": true,
+  "wording_policy": "Shared fixed templates; new fact combinations, not unseen language."
+}
