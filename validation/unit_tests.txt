@@ -1,0 +1,42 @@
+test_boundary_and_precedence (test_data.PolicyTests.test_boundary_and_precedence) ... ok
+test_duplicate_fact_group_rejected (test_data.PolicyTests.test_duplicate_fact_group_rejected) ... ok
+test_groups_and_balances (test_data.PolicyTests.test_groups_and_balances) ... ok
+test_strict_json (test_data.PolicyTests.test_strict_json) ... ok
+test_truth_passes_but_not_every_rejected_fails_fields (test_data.PolicyTests.test_truth_passes_but_not_every_rejected_fails_fields) ... ok
+test_changed_config_is_rejected_before_model_loading (test_stages.DurableStageTests.test_changed_config_is_rejected_before_model_loading) ... ok
+test_corrupt_adapter_is_rejected_before_model_loading (test_stages.DurableStageTests.test_corrupt_adapter_is_rejected_before_model_loading) ... ok
+test_hard_exit_before_final_export_recovers_without_generation (test_stages.DurableStageTests.test_hard_exit_before_final_export_recovers_without_generation) ... ok
+test_hard_process_exit_reuses_durable_prefix_only (test_stages.DurableStageTests.test_hard_process_exit_reuses_durable_prefix_only) ... ok
+test_interrupted_evaluation_retries_only_missing_predictions_and_never_trains (test_stages.DurableStageTests.test_interrupted_evaluation_retries_only_missing_predictions_and_never_trains) ... ok
+test_stages_reconstruct_saved_state_in_fresh_processes (test_stages.DurableStageTests.test_stages_reconstruct_saved_state_in_fresh_processes) ... ok
+test_chat_prefix_and_completion_only_labels (test_training.CompletionEncodingTests.test_chat_prefix_and_completion_only_labels) ... ok
+test_existing_eos_is_not_duplicated (test_training.CompletionEncodingTests.test_existing_eos_is_not_duplicated) ... ok
+test_overlong_example_fails_instead_of_truncating (test_training.CompletionEncodingTests.test_overlong_example_fails_instead_of_truncating) ... ok
+test_gradient_reaches_only_scored_prediction_positions (test_training.CompletionLogProbabilityTests.test_gradient_reaches_only_scored_prediction_positions) ... ok
+test_independent_batch_rows_and_zero_scored_tokens (test_training.CompletionLogProbabilityTests.test_independent_batch_rows_and_zero_scored_tokens) ... ok
+test_next_token_shift_and_sum_not_mean (test_training.CompletionLogProbabilityTests.test_next_token_shift_and_sum_not_mean) ... ok
+test_prompt_and_padding_scores_are_ignored (test_training.CompletionLogProbabilityTests.test_prompt_and_padding_scores_are_ignored) ... ok
+test_gradient_favors_chosen_over_rejected (test_training.DPOLossTests.test_gradient_favors_chosen_over_rejected) ... ok
+test_invalid_beta_is_rejected (test_training.DPOLossTests.test_invalid_beta_is_rejected) ... ok
+test_reference_adjustment_and_batch_mean (test_training.DPOLossTests.test_reference_adjustment_and_batch_mean) ... ok
+test_reference_policy_has_log_two_loss (test_training.DPOLossTests.test_reference_policy_has_log_two_loss) ... ok
+test_sft_then_dpo_preserves_base_and_roundtrips_adapter (test_training.TinyLlamaAdapterIntegrationTests.test_sft_then_dpo_preserves_base_and_roundtrips_adapter) ... ok
+test_cli_works_without_importing_torch (test_verifier.VerifierTests.test_cli_works_without_importing_torch) ... ok
+test_consistent_synthetic_fixture_and_blank_ratings_pass (test_verifier.VerifierTests.test_consistent_synthetic_fixture_and_blank_ratings_pass) ... ok
+test_duplicate_prediction_cannot_replace_missing_case (test_verifier.VerifierTests.test_duplicate_prediction_cannot_replace_missing_case) ... ok
+test_interrupted_run_is_not_completed (test_verifier.VerifierTests.test_interrupted_run_is_not_completed) ... ok
+test_manifest_detects_changed_file_without_rehash (test_verifier.VerifierTests.test_manifest_detects_changed_file_without_rehash) ... ok
+test_manifest_requires_complete_coverage (test_verifier.VerifierTests.test_manifest_requires_complete_coverage) ... ok
+test_reference_cannot_contain_nonfinite_scores (test_verifier.VerifierTests.test_reference_cannot_contain_nonfinite_scores) ... ok
+test_reference_hash_is_checked_after_manifest_rehash (test_verifier.VerifierTests.test_reference_hash_is_checked_after_manifest_rehash) ... ok
+test_rehashed_bootstrap_is_recomputed (test_verifier.VerifierTests.test_rehashed_bootstrap_is_recomputed) ... ok
+test_rehashed_csv_is_recomputed (test_verifier.VerifierTests.test_rehashed_csv_is_recomputed) ... ok
+test_rehashed_flags_are_recomputed (test_verifier.VerifierTests.test_rehashed_flags_are_recomputed) ... ok
+test_rehashed_metrics_are_recomputed (test_verifier.VerifierTests.test_rehashed_metrics_are_recomputed) ... ok
+test_review_key_cannot_duplicate_one_model_case (test_verifier.VerifierTests.test_review_key_cannot_duplicate_one_model_case) ... ok
+test_training_order_cannot_use_heldout_id (test_verifier.VerifierTests.test_training_order_cannot_use_heldout_id) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 32.962s
+
+OK
