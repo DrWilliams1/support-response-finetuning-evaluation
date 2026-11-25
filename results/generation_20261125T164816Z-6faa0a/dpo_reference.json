@@ -1,0 +1,6 @@
+{
+  "sha256": "2531dbd3bda49bbca3b90fbe161aa5b798ca11e053dfab50317d957c60b0f689",
+  "seconds": 77.51941478799995,
+  "reference": "Frozen SFT adapter on the same NF4 base",
+  "reduction": "completion token sum including EOS"
+}
