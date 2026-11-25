@@ -1,0 +1,9 @@
+{
+  "trainable_adapter_parameters": 4505600,
+  "total_parameters": 1104553984,
+  "trainable_fraction": 0.004079112533444088,
+  "lora_dropout": 0.0,
+  "base_storage": "NF4 with double quantization",
+  "compute_dtype": "float16",
+  "adapter_dtype": "float32"
+}
