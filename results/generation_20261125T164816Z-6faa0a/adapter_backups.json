@@ -1,0 +1,16 @@
+{
+  "sft": {
+    "directory": "adapters/sft",
+    "zip_name": "generation_20261125T164816Z-6faa0a_sft_adapter.zip",
+    "zip_sha256": "848ecb7fea9145552dc78215d359e99b5a4bf778d22c25713c2c4c4907e25439",
+    "adapter_weights_sha256": "509d6227558b59abf98ff89f75b12c2d7702f7ec5dd684898d8470d41a862cab",
+    "adapter_manifest_sha256": "d1fc45f7bfa5d58e158fd85bbc8957e124fa2e4ef91e1a86cfe2f73a45d56888"
+  },
+  "dpo": {
+    "directory": "adapters/dpo",
+    "zip_name": "generation_20261125T164816Z-6faa0a_dpo_adapter.zip",
+    "zip_sha256": "49527d5bf5ded14e23239f67d405449a301edfe0e26873d8ddacbb5a1d739a40",
+    "adapter_weights_sha256": "f04a8d394eb177532a79f9286671644f8c639ed1aae40b8c4be181079f1733ec",
+    "adapter_manifest_sha256": "0505cbf53e9233a631bbf45b218ebaff5f53c6de0cd4c4c494252ad9350fde45"
+  }
+}
