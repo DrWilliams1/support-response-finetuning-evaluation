@@ -1,0 +1,31 @@
+{
+  "date_utc": "2026-11-25T00:25:10.789893+00:00",
+  "status": "passed",
+  "unit_tests_passed": 37,
+  "checks": [
+    "Policy boundaries, strict JSON, disjoint fact groups",
+    "Completion masks and DPO gradients",
+    "Real tiny random CPU Llama training, adapter reload and generation",
+    "Evidence verifier and corruption detection",
+    "Staged fresh-process persistence with fabricated CPU backend",
+    "Caught-interruption and hard-exit evaluation recovery without retraining",
+    "Interrupted final export recovery without generation",
+    "Notebook schema, AST, embedded source equality and data bootstrap",
+    "Five simulated Drive folder-selection checks; no downloads in compute cells"
+  ],
+  "not_executed": [
+    "Revised full TinyLlama/NF4 GPU run",
+    "Actual Google Drive mount and persistence"
+  ],
+  "packages": {
+    "torch": "2.6.0+cpu",
+    "transformers": "4.57.6",
+    "peft": "0.18.1",
+    "accelerate": "1.12.0",
+    "numpy": "2.3.5",
+    "nbformat": "5.10.4"
+  },
+  "notebook_cells": 27,
+  "embedded_files": 17,
+  "benchmark_results_status": "pending_complete_verified_run"
+}
