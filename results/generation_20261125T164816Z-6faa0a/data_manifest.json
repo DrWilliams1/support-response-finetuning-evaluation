@@ -1,0 +1,14 @@
+{
+  "train": {
+    "n": 480,
+    "sha256": "95f1d63f452844d003882bd5d5e877cb3a990ba4ae789996762c143c1d1923ab"
+  },
+  "development": {
+    "n": 60,
+    "sha256": "2db429833b21036d7a7f88228cceb2327a7681934f4e9e48472ab08d7e3fafad"
+  },
+  "test": {
+    "n": 120,
+    "sha256": "66e8db601ed50f04de1c901f2abc1cac21168bd9136c25a8646f80139e2ce1af"
+  }
+}
