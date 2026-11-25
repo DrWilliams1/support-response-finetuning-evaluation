@@ -1,0 +1,15 @@
+{
+  "methods": [
+    "base",
+    "sft",
+    "dpo"
+  ],
+  "reference_baseline": "rule_engine",
+  "selection": "None: fixed steps and unchanged decoding; no development or test tuning",
+  "primary_metric": "structured_pass",
+  "test_evaluation_after_both_training_stages": true,
+  "max_new_tokens": 128,
+  "do_sample": false,
+  "adapter_merging": false,
+  "reply_semantic_quality_measured_by_primary_metric": false
+}
