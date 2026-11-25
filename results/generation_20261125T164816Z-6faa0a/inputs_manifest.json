@@ -1,0 +1,12 @@
+{
+  "config.json": "c16bab75e7a23f29122d298914d362ff171992ce87a07732abcf1afd391829f2",
+  "protocol.json": "d4cb3d621db08b33b4ec620cfcbf49db5d2e557cd2f402aaa2f583c6d616ca3f",
+  "environment.json": "28f25a81f5fea305a47a8c4ed9408a2b7cf187bc59f982be46bfa530774fd97a",
+  "data_manifest.json": "137c468ccc836e53be281119cfad1aa0a6123a1cf9d94111290210cb0b621c9d",
+  "data_audit.json": "9d74d16b92d019ed03817d12608e3e7daee923d779d45494a26d039f6392b2e0",
+  "code/train_evaluate.py": "645fccc94f208aeb743e5f7183c64f7a90a0af83264e175e90fb9116f6a0c03b",
+  "code/support_data.py": "58996cf8849e6494de5ec41f6ce4e1c0a14e862f413bfa4d487d479e7e94b09e",
+  "data/train.jsonl": "95f1d63f452844d003882bd5d5e877cb3a990ba4ae789996762c143c1d1923ab",
+  "data/development.jsonl": "2db429833b21036d7a7f88228cceb2327a7681934f4e9e48472ab08d7e3fafad",
+  "data/test.jsonl": "66e8db601ed50f04de1c901f2abc1cac21168bd9136c25a8646f80139e2ce1af"
+}
