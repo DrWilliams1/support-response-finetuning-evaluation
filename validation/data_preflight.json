@@ -1,0 +1,16 @@
+{
+  "rows": {
+    "train": 480,
+    "development": 60,
+    "test": 120
+  },
+  "unique_fact_groups": 660,
+  "shared_fact_groups": 0,
+  "synthetic": true,
+  "wording_policy": "Shared fixed templates; new fact combinations, not unseen language.",
+  "dataset_sha256": {
+    "train": "95f1d63f452844d003882bd5d5e877cb3a990ba4ae789996762c143c1d1923ab",
+    "development": "2db429833b21036d7a7f88228cceb2327a7681934f4e9e48472ab08d7e3fafad",
+    "test": "66e8db601ed50f04de1c901f2abc1cac21168bd9136c25a8646f80139e2ce1af"
+  }
+}
