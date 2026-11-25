@@ -1,0 +1,7 @@
+{
+  "schema_ast": "passed",
+  "code_cells": 13,
+  "drive_selection_checks": 5,
+  "browser_downloads": "disabled by default; final standalone cell only",
+  "scope": "Local simulation; real Google Drive and GPU execution not tested"
+}
