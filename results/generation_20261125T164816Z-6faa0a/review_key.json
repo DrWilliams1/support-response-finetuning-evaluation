@@ -1,0 +1,185 @@
+{
+  "instructions": "Open only after recording blinded ratings; method identity is hidden in the review CSV, not cryptographically protected.",
+  "mapping": [
+    {
+      "review_id": "R490350503",
+      "method": "dpo",
+      "id": "T-48AC814877"
+    },
+    {
+      "review_id": "R595072848",
+      "method": "sft",
+      "id": "T-48AC814877"
+    },
+    {
+      "review_id": "R553352586",
+      "method": "dpo",
+      "id": "T-F0E8F6B7DE"
+    },
+    {
+      "review_id": "R197371420",
+      "method": "dpo",
+      "id": "T-7FE938536D"
+    },
+    {
+      "review_id": "R528179593",
+      "method": "sft",
+      "id": "T-D8081F57C9"
+    },
+    {
+      "review_id": "R728909716",
+      "method": "sft",
+      "id": "T-B3FEED2268"
+    },
+    {
+      "review_id": "R695335113",
+      "method": "sft",
+      "id": "T-A14533C4EE"
+    },
+    {
+      "review_id": "R635212070",
+      "method": "dpo",
+      "id": "T-FD759EF1E2"
+    },
+    {
+      "review_id": "R225035027",
+      "method": "dpo",
+      "id": "T-A8CB6635D1"
+    },
+    {
+      "review_id": "R556816281",
+      "method": "base",
+      "id": "T-A14533C4EE"
+    },
+    {
+      "review_id": "R643698561",
+      "method": "dpo",
+      "id": "T-7E10C62BA7"
+    },
+    {
+      "review_id": "R961730688",
+      "method": "sft",
+      "id": "T-FD759EF1E2"
+    },
+    {
+      "review_id": "R905463982",
+      "method": "base",
+      "id": "T-B3FEED2268"
+    },
+    {
+      "review_id": "R744422524",
+      "method": "dpo",
+      "id": "T-321F48EA88"
+    },
+    {
+      "review_id": "R627240211",
+      "method": "sft",
+      "id": "T-F0E8F6B7DE"
+    },
+    {
+      "review_id": "R527508601",
+      "method": "base",
+      "id": "T-FC94B591FE"
+    },
+    {
+      "review_id": "R663341564",
+      "method": "sft",
+      "id": "T-321F48EA88"
+    },
+    {
+      "review_id": "R377716265",
+      "method": "sft",
+      "id": "T-A8CB6635D1"
+    },
+    {
+      "review_id": "R550935218",
+      "method": "base",
+      "id": "T-48AC814877"
+    },
+    {
+      "review_id": "R705590520",
+      "method": "base",
+      "id": "T-321F48EA88"
+    },
+    {
+      "review_id": "R614526311",
+      "method": "sft",
+      "id": "T-7FE938536D"
+    },
+    {
+      "review_id": "R650775247",
+      "method": "base",
+      "id": "T-A8CB6635D1"
+    },
+    {
+      "review_id": "R656184557",
+      "method": "base",
+      "id": "T-D8081F57C9"
+    },
+    {
+      "review_id": "R964548086",
+      "method": "dpo",
+      "id": "T-B3FEED2268"
+    },
+    {
+      "review_id": "R127247423",
+      "method": "dpo",
+      "id": "T-D8081F57C9"
+    },
+    {
+      "review_id": "R717955856",
+      "method": "sft",
+      "id": "T-E041E0EE7A"
+    },
+    {
+      "review_id": "R341081736",
+      "method": "dpo",
+      "id": "T-E041E0EE7A"
+    },
+    {
+      "review_id": "R922299757",
+      "method": "sft",
+      "id": "T-FC94B591FE"
+    },
+    {
+      "review_id": "R238511463",
+      "method": "base",
+      "id": "T-7E10C62BA7"
+    },
+    {
+      "review_id": "R978462767",
+      "method": "dpo",
+      "id": "T-FC94B591FE"
+    },
+    {
+      "review_id": "R152492769",
+      "method": "base",
+      "id": "T-E041E0EE7A"
+    },
+    {
+      "review_id": "R856625749",
+      "method": "base",
+      "id": "T-FD759EF1E2"
+    },
+    {
+      "review_id": "R661799480",
+      "method": "base",
+      "id": "T-F0E8F6B7DE"
+    },
+    {
+      "review_id": "R819925699",
+      "method": "base",
+      "id": "T-7FE938536D"
+    },
+    {
+      "review_id": "R210140551",
+      "method": "sft",
+      "id": "T-7E10C62BA7"
+    },
+    {
+      "review_id": "R870203091",
+      "method": "dpo",
+      "id": "T-A14533C4EE"
+    }
+  ]
+}
