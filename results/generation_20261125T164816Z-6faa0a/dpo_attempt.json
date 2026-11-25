@@ -1,0 +1,6 @@
+{
+  "started_at": "2026-11-25T16:53:25.354281+00:00",
+  "sft_weights_sha256": "509d6227558b59abf98ff89f75b12c2d7702f7ec5dd684898d8470d41a862cab",
+  "reference_sha256": "2531dbd3bda49bbca3b90fbe161aa5b798ca11e053dfab50317d957c60b0f689",
+  "continued_adapter": "saved SFT on original pinned base; no merge"
+}
