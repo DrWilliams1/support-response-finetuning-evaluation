@@ -1,0 +1,25 @@
+{
+  "model_revision": "fe8a4ea1ffedaf415f4da2f062534de366a451e6",
+  "splits": {
+    "train": {
+      "min_combined_tokens": 345,
+      "max_combined_tokens": 367,
+      "rows": 480,
+      "max_generation_budget": 427
+    },
+    "development": {
+      "min_combined_tokens": 344,
+      "max_combined_tokens": 367,
+      "rows": 60,
+      "max_generation_budget": 426
+    },
+    "test": {
+      "min_combined_tokens": 345,
+      "max_combined_tokens": 369,
+      "rows": 120,
+      "max_generation_budget": 427
+    }
+  },
+  "no_truncation_required": true,
+  "generation_budget_fits": true
+}
