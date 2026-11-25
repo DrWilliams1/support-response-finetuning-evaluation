@@ -1,0 +1,625 @@
+review_id,prompt,response,reply_factual,instruction_following,unsupported_advice,notes
+R490350503,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Draft a response for this support ticket.
+{""ticket_id"": ""T-48AC814877"", ""return_window_days"": 61, ""elapsed_days"": 59, ""receipt"": true, ""unused"": false, ""damaged"": true}","{""ticket_id"": ""T-48AC814877"", ""decision"": ""review"", ""reason"": ""damaged_item"", ""reply"": ""Your damaged item needs a support return support before a return decision can be made.""}",,,,
+R595072848,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Draft a response for this support ticket.
+{""ticket_id"": ""T-48AC814877"", ""return_window_days"": 61, ""elapsed_days"": 59, ""receipt"": true, ""unused"": false, ""damaged"": true}","{""ticket_id"": ""T-48AC814877"", ""decision"": ""review"", ""reason"": ""damaged_item"", ""reply"": ""Your damaged item needs a support review before a return decision can be made.""}",,,,
+R553352586,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Please handle this return request.
+{""ticket_id"": ""T-F0E8F6B7DE"", ""return_window_days"": 26, ""elapsed_days"": 26, ""receipt"": false, ""unused"": true, ""damaged"": false}","{""ticket_id"": ""T-F0E8F6B7DE"", ""decision"": ""review"", ""reason"": ""missing receipt"", ""reply"": "" Please provide your receipt so support can support your return request.""}",,,,
+R197371420,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Draft a response for this support ticket.
+{""ticket_id"": ""T-7FE938536D"", ""return_window_days"": 95, ""elapsed_days"": 56, ""receipt"": false, ""unused"": false, ""damaged"": true}","{""ticket_id"": ""T-7FE938536D"", ""decision"": ""review"", ""reason"": ""damaged_item"", ""reply"": ""Your damaged item needs a support return support before a return decision can be made.""}",,,,
+R528179593,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Draft a response for this support ticket.
+{""ticket_id"": ""T-D8081F57C9"", ""return_window_days"": 177, ""elapsed_days"": 45, ""receipt"": true, ""unused"": true, ""damaged"": false}","{""ticket_id"": ""T-D8081F57C9"", ""decision"": ""approve"", ""reason"": ""eligible"", ""reply"": ""Your unused item meets the receipt and return-window requirements, so the return is approved.""}",,,,
+R728909716,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Please handle this return request.
+{""ticket_id"": ""T-B3FEED2268"", ""return_window_days"": 138, ""elapsed_days"": 113, ""receipt"": true, ""unused"": false, ""damaged"": false}","{""ticket_id"": ""T-B3FEED2268"", ""decision"": ""deny"", ""reason"": ""outside_window"", ""reply"": ""Your request is outside the stated return window, so this return cannot be approved.""}",,,,
+R695335113,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Please handle this return request.
+{""ticket_id"": ""T-A14533C4EE"", ""return_window_days"": 69, ""elapsed_days"": 170, ""receipt"": true, ""unused"": false, ""damaged"": false}","{""ticket_id"": ""T-A14533C4EE"", ""decision"": ""deny"", ""reason"": ""outside_window"", ""reply"": ""Your request is outside the stated return window, so this return cannot be approved.""}",,,,
+R635212070,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Apply the store policy to this request.
+{""ticket_id"": ""T-FD759EF1E2"", ""return_window_days"": 119, ""elapsed_days"": 181, ""receipt"": false, ""unused"": false, ""damaged"": false}","{""ticket_id"": ""T-FD759EF1E2"", ""decision"": ""review"", ""reason"": ""missing receipt"", ""reply"": "" Please provide your receipt so support can support your return request.""}",,,,
+R225035027,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Apply the store policy to this request.
+{""ticket_id"": ""T-A8CB6635D1"", ""return_window_days"": 64, ""elapsed_days"": 58, ""receipt"": true, ""unused"": false, ""damaged"": false}","{"" T-A8CB6635D1 -> {"" return_window_days -> 64, "" return_window_days -> 64, "" damaged -> false, "" return_window_days -> 64, "" unused -> false, "" damaged -> false """""" } }",,,,
+R556816281,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Please handle this return request.
+{""ticket_id"": ""T-A14533C4EE"", ""return_window_days"": 69, ""elapsed_days"": 170, ""receipt"": true, ""unused"": false, ""damaged"": false}","Response:
+Ticket ID: T-A14533C4EE
+Return Window Days: 69
+Elapsed Days: 170
+Receipt: True
+Unused: False
+Damaged: False
+
+Decision: Review
+Reason: Damaged Item
+
+Return:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_",,,,
+R643698561,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Please handle this return request.
+{""ticket_id"": ""T-7E10C62BA7"", ""return_window_days"": 30, ""elapsed_days"": 30, ""receipt"": true, ""unused"": true, ""damaged"": false}","{""ticket_id"": ""T-7E10C62BA7"", ""decision"": ""deny"", ""reason"": ""outside_window"", ""reply"": "" Your request is outside the stated return window, so this return cannot be approved.""}",,,,
+R961730688,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Apply the store policy to this request.
+{""ticket_id"": ""T-FD759EF1E2"", ""return_window_days"": 119, ""elapsed_days"": 181, ""receipt"": false, ""unused"": false, ""damaged"": false}","{""ticket_id"": ""T-FD759EF1E2"", ""decision"": ""review"", ""reason"": ""missing_receipt"", ""reply"": ""Please provide your receipt so support can review your return request.""}",,,,
+R905463982,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Please handle this return request.
+{""ticket_id"": ""T-B3FEED2268"", ""return_window_days"": 138, ""elapsed_days"": 113, ""receipt"": true, ""unused"": false, ""damaged"": false}","Response:
+Ticket ID: T-B3FEED2268
+Return Window Days: 138
+Elapsed Days: 113
+Receipt: True
+Unused: False
+Damaged: False
+
+Decision: Review
+Reason: Damaged Item
+
+Return:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_",,,,
+R744422524,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Apply the store policy to this request.
+{""ticket_id"": ""T-321F48EA88"", ""return_window_days"": 125, ""elapsed_days"": 125, ""receipt"": true, ""unused"": true, ""damaged"": false}","{"" T-321F48EA88 "": {"" decision"": ""deny"", "" reason"": ""used_item"", "" reply"": ""This return cannot be supported by used items."" } }",,,,
+R627240211,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Please handle this return request.
+{""ticket_id"": ""T-F0E8F6B7DE"", ""return_window_days"": 26, ""elapsed_days"": 26, ""receipt"": false, ""unused"": true, ""damaged"": false}","{""ticket_id"": ""T-F0E8F6B7DE"", ""decision"": ""review"", ""reason"": ""missing_receipt"", ""reply"": ""Please provide your receipt so support can review your return request.""}",,,,
+R527508601,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Please handle this return request.
+{""ticket_id"": ""T-FC94B591FE"", ""return_window_days"": 51, ""elapsed_days"": 87, ""receipt"": true, ""unused"": false, ""damaged"": false}","Response:
+Ticket ID: T-FC94B591FE
+Return Window Days: 51
+Elapsed Days: 87
+Receipt: True
+Unused Item: False
+Damaged Item: False
+
+Decision: Review
+Reason: Damaged Item
+
+Return:
+Ticket ID: T-FC94B591FE
+Return Window Days: 51
+Elapsed Days: 87
+Receipt: True
+Unused Item: False
+Damaged Item: False
+
+Decision: Review
+Reason: Dam",,,,
+R663341564,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Apply the store policy to this request.
+{""ticket_id"": ""T-321F48EA88"", ""return_window_days"": 125, ""elapsed_days"": 125, ""receipt"": true, ""unused"": true, ""damaged"": false}","{""ticket_id"": ""T-321F48EA88"", ""decision"": ""approve"", ""reason"": ""eligible"", ""reply"": ""Your unused item meets the receipt and return-window requirements, so the return is approved.""}",,,,
+R377716265,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Apply the store policy to this request.
+{""ticket_id"": ""T-A8CB6635D1"", ""return_window_days"": 64, ""elapsed_days"": 58, ""receipt"": true, ""unused"": false, ""damaged"": false}","{""ticket_id"": ""T-A8CB6635D1"", ""decision"": ""deny"", ""reason"": ""outside_window"", ""reply"": ""Your request is outside the stated return window, so this return cannot be approved.""}",,,,
+R550935218,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Draft a response for this support ticket.
+{""ticket_id"": ""T-48AC814877"", ""return_window_days"": 61, ""elapsed_days"": 59, ""receipt"": true, ""unused"": false, ""damaged"": true}","Dear [Customer Name],
+
+Thank you for reaching out to us regarding the damaged item that was received at our store. We understand the importance of ensuring the safety and quality of our products, and we take this matter seriously.
+
+As per the given facts, the damaged item was received on [Date] and was found to be damaged on [Date of Damage]. The item was returned to us on [Date of Return] and we have inspected it and found that it is in good condition.
+
+In light of the above, we have decided to approve your request for the return of",,,,
+R705590520,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Apply the store policy to this request.
+{""ticket_id"": ""T-321F48EA88"", ""return_window_days"": 125, ""elapsed_days"": 125, ""receipt"": true, ""unused"": true, ""damaged"": false}","Response:
+Ticket ID: T-321F48EA88
+Return Window Days: 125
+Elapsed Days: 125
+Receipt: True
+Unused: False
+Damaged: False
+
+Reason:
+1. Review: The item is damaged and needs to be repaired or replaced.
+2. Review: The item is not eligible for return and cannot be repaired or replaced.
+3. Review: The item is used and cannot be returned or exchanged.
+4. Review: The item is outside the",,,,
+R614526311,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Draft a response for this support ticket.
+{""ticket_id"": ""T-7FE938536D"", ""return_window_days"": 95, ""elapsed_days"": 56, ""receipt"": false, ""unused"": false, ""damaged"": true}","{""ticket_id"": ""T-7FE938536D"", ""decision"": ""review"", ""reason"": ""damaged_item"", ""reply"": ""Your damaged item needs a support review before a return decision can be made.""}",,,,
+R650775247,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Apply the store policy to this request.
+{""ticket_id"": ""T-A8CB6635D1"", ""return_window_days"": 64, ""elapsed_days"": 58, ""receipt"": true, ""unused"": false, ""damaged"": false}","Response:
+Ticket ID: T-A8CB6635D1
+
+Decision: Review
+
+Reason: Damaged item
+
+Reply:
+Dear customer,
+
+Thank you for bringing this matter to our attention. We understand that you have experienced a damaged item and would like to provide you with the following response.
+
+Damaged items are a common occurrence in our store, and we take them very seriously. We have implemented a strict policy to ensure that all damaged items are repaired or replaced within a reasonable timeframe.
+
+If the damaged item",,,,
+R656184557,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Draft a response for this support ticket.
+{""ticket_id"": ""T-D8081F57C9"", ""return_window_days"": 177, ""elapsed_days"": 45, ""receipt"": true, ""unused"": true, ""damaged"": false}","Dear [Customer Name],
+
+Thank you for reaching out to us regarding the damaged item that was received at our store. We understand the importance of promptly resolving this issue, and we are committed to providing you with a satisfactory solution.
+
+As per the provided facts, the damaged item was received on [Date] and was found to be damaged on [Date of Damage]. The item was returned to our store on [Date of Return].
+
+Based on the information provided, we have conducted a thorough investigation and have found that the item was indeed damaged. We have also reviewed",,,,
+R964548086,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Please handle this return request.
+{""ticket_id"": ""T-B3FEED2268"", ""return_window_days"": 138, ""elapsed_days"": 113, ""receipt"": true, ""unused"": false, ""damaged"": false}","{""ticket_id"": ""T-B3FEED2268"", ""decision"": ""deny"", ""reason"": ""outside_window"", ""reply"": "" Your request is outside the stated return window, so this return cannot be approved.""}",,,,
+R127247423,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Draft a response for this support ticket.
+{""ticket_id"": ""T-D8081F57C9"", ""return_window_days"": 177, ""elapsed_days"": 45, ""receipt"": true, ""unused"": true, ""damaged"": false}","{""ticket_id"": ""T-D8081F57C9"", ""decision"": ""deny"", ""reason"": ""outside_window"", ""reply"": "" Your request is outside the stated return window, so this return cannot be approved.""}",,,,
+R717955856,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Draft a response for this support ticket.
+{""ticket_id"": ""T-E041E0EE7A"", ""return_window_days"": 117, ""elapsed_days"": 6, ""receipt"": true, ""unused"": true, ""damaged"": false}","{""ticket_id"": ""T-E041E0EE7A"", ""decision"": ""approve"", ""reason"": ""eligible"", ""reply"": ""Your unused item meets the receipt and return-window requirements, so the return is approved.""}",,,,
+R341081736,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Draft a response for this support ticket.
+{""ticket_id"": ""T-E041E0EE7A"", ""return_window_days"": 117, ""elapsed_days"": 6, ""receipt"": true, ""unused"": true, ""damaged"": false}","{""ticket_id"": ""T-E041E0EE7A"", ""decision"": ""deny"", ""reason"": ""outside_window"", ""reply"": "" Your request is outside the stated return window, so this return cannot be approved.""}",,,,
+R922299757,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Please handle this return request.
+{""ticket_id"": ""T-FC94B591FE"", ""return_window_days"": 51, ""elapsed_days"": 87, ""receipt"": true, ""unused"": false, ""damaged"": false}","{""ticket_id"": ""T-FC94B591FE"", ""decision"": ""deny"", ""reason"": ""outside_window"", ""reply"": ""Your request is outside the stated return window, so this return cannot be approved.""}",,,,
+R238511463,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Please handle this return request.
+{""ticket_id"": ""T-7E10C62BA7"", ""return_window_days"": 30, ""elapsed_days"": 30, ""receipt"": true, ""unused"": true, ""damaged"": false}","Response:
+Ticket ID: T-7E10C62BA7
+Return Window Days: 30
+Elapsed Days: 30
+Receipt: True
+Unused: False
+Damaged: False
+
+Decision: Review
+Reason: Damaged Item
+
+Return:
+Ticket ID: T-7E10C62BA7
+Return Window Days: 30
+Elapsed Days: 30
+Receipt: True
+Unused: False
+Damaged: False
+
+Decision: Review
+Reason: Damaged Item",,,,
+R978462767,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Please handle this return request.
+{""ticket_id"": ""T-FC94B591FE"", ""return_window_days"": 51, ""elapsed_days"": 87, ""receipt"": true, ""unused"": false, ""damaged"": false}","{""ticket_id"": ""T-FC94B591FE"", ""decision"": ""deny"", ""reason"": ""outside_window"", ""reply"": "" Your request is outside the stated return window, so this return cannot be approved.""}",,,,
+R152492769,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Draft a response for this support ticket.
+{""ticket_id"": ""T-E041E0EE7A"", ""return_window_days"": 117, ""elapsed_days"": 6, ""receipt"": true, ""unused"": true, ""damaged"": false}","Dear [Customer Name],
+
+Thank you for reaching out to us regarding the damaged item that was received at our store. We understand the importance of promptly resolving this issue, and we are committed to providing you with a satisfactory solution.
+
+As per the given facts, the damaged item was received on [Date] and was found to be damaged on [Date of Damage]. The item was returned to our store on [Date of Return].
+
+Based on the given facts, the decision to approve or deny the request for a refund is based on the following criteria:
+",,,,
+R856625749,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Apply the store policy to this request.
+{""ticket_id"": ""T-FD759EF1E2"", ""return_window_days"": 119, ""elapsed_days"": 181, ""receipt"": false, ""unused"": false, ""damaged"": false}","Response:
+Ticket ID: T-FD759EF1E2
+
+Return Window Days: 119
+Elapsed Days: 181
+Receipt: False
+Unused: False
+Damaged: False
+
+Decision: Review
+Reason: Damaged item
+
+Returned: Yes
+Reply: The item is damaged and cannot be returned.
+
+Deadline: 12/1/2021
+
+Markdown: No
+
+Promised Payments: No
+
+Unsupported Facts: No
+
+Apply the",,,,
+R661799480,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Please handle this return request.
+{""ticket_id"": ""T-F0E8F6B7DE"", ""return_window_days"": 26, ""elapsed_days"": 26, ""receipt"": false, ""unused"": true, ""damaged"": false}","Response:
+Ticket ID: T-F0E8F6B7DE
+Return Window Days: 26
+Elapsed Days: 26
+Receipt: False
+Unused: True
+Damaged: False
+
+Decision: Review
+Reason: Damaged Item
+
+Return:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window",,,,
+R819925699,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Draft a response for this support ticket.
+{""ticket_id"": ""T-7FE938536D"", ""return_window_days"": 95, ""elapsed_days"": 56, ""receipt"": false, ""unused"": false, ""damaged"": true}","Dear [Customer Name],
+
+Thank you for reaching out to us regarding the damaged item that was received at our store. We understand the importance of ensuring the safety and quality of our products, and we take this matter seriously.
+
+As per the given facts, the damaged item was received on [Date] and was found to be damaged on [Date of Damage]. The item was returned to our store on [Date of Return].
+
+We have conducted a thorough investigation and have found that the item was indeed damaged during the time it was in our possession. We have also confirmed that the item",,,,
+R210140551,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Please handle this return request.
+{""ticket_id"": ""T-7E10C62BA7"", ""return_window_days"": 30, ""elapsed_days"": 30, ""receipt"": true, ""unused"": true, ""damaged"": false}","{""ticket_id"": ""T-7E10C62BA7"", ""decision"": ""approve"", ""reason"": ""eligible"", ""reply"": ""Your unused item meets the receipt and return-window requirements, so the return is approved.""}",,,,
+R870203091,"You draft responses for a fictional store. Use only the supplied facts.
+Apply these rules in this exact order:
+1. If damaged is true, decision=review and reason=damaged_item, regardless of other facts.
+2. Otherwise, if receipt is false, decision=review and reason=missing_receipt.
+3. Otherwise, if elapsed_days > return_window_days, decision=deny and reason=outside_window.
+4. Otherwise, if unused is false, decision=deny and reason=used_item.
+5. Otherwise decision=approve and reason=eligible. The deadline day is included.
+Return one JSON object only with exactly four string fields: ticket_id, decision, reason, reply.
+Copy ticket_id exactly. Write a helpful reply of 1 to 60 words consistent with the decision.
+Do not add markdown, extra keys, promised payments, or unsupported facts.
+
+Please handle this return request.
+{""ticket_id"": ""T-A14533C4EE"", ""return_window_days"": 69, ""elapsed_days"": 170, ""receipt"": true, ""unused"": false, ""damaged"": false}","{""ticket_id"": ""T-A14533C4EE"", ""decision"": ""deny"", ""reason"": ""outside_window"", ""reply"": "" Your request is outside the stated return window, so this return cannot be approved.""}",,,,
